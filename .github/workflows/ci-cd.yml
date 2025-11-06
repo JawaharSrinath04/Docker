@@ -27,7 +27,7 @@ jobs:
 
       - name: Build Docker image
         run: |
-          docker build -t sample-app:latest ./sample-app
+          docker build -t sample-app:latest .
 
       - name: Push Docker image (optional)
         run: |
